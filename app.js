@@ -46,6 +46,7 @@ mongoose
 let Schema = mongoose.Schema;
 
 //Define schema for inputs prior to any requests
+//Add restrictions for each part of schema.
 let studentSchema = new Schema({
   firstName: {
     type: String,
@@ -64,3 +65,5 @@ let studentSchema = new Schema({
     type: String,
   },
 });
+
+let Student = mongoose.model("Student", studentSchema);
