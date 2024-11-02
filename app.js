@@ -41,3 +41,26 @@ mongoose
   .catch((error) => {
     console.error(`Error: ${error}`);
   });
+
+// Extract the Schema constructor from mongoose to define the structure of documents within a collection.
+let Schema = mongoose.Schema;
+
+//Define schema for inputs prior to any requests
+let studentSchema = new Schema({
+  firstName: {
+    type: String,
+  },
+  lastName: {
+    type: String,
+  },
+  DOB: {
+    type: Date,
+  },
+  country: {
+    type: String,
+  },
+  notes: String,
+  login: {
+    type: String,
+  },
+});
