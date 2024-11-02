@@ -1,0 +1,31 @@
+{
+  "name": "studentmanager-nodejs",
+  "version": "1.0.0",
+  "description": "A Node.js API for managing student information using CRUD operations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliottMcDonald/StudentManager-NodeJS.git"
+  },
+  "keywords": [
+    "[\"student\"",
+    "\"CRUD\"",
+    "\"API\"",
+    "\"Node.js\"",
+    "\"Express\"",
+    "\"database\"]"
+  ],
+  "author": "ElliottMcDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElliottMcDonald/StudentManager-NodeJS/issues"
+  },
+  "homepage": "https://github.com/ElliottMcDonald/StudentManager-NodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
